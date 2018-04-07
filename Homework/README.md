@@ -1,189 +1,1 @@
-## Unit 4 | Assignment - Pandas, Pandas, Pandas
-
-## Background
-
-The data dive continues!
-
-Now, it's time to take what you've learned about Python Pandas and apply it to new situations. For this assignment, you'll need to complete **1 of 2**  Data Challenges. Once again, it's your choice which you choose. Just be sure to give it your all -- as the skills you hone will become powerful tools in your data analytics tool belt.
-
-## Option 1: Heroes of Pymoli
-
-![Fantasy](Images/Fantasy.jpg)
-
-Congratulations! After a lot of hard work in the data munging mines, you've landed a job as Lead Analyst for an independent gaming company. You've been assigned the task of analyzing the data for their most recent fantasy game Heroes of Pymoli. 
-
-Like many others in its genre, the game is free-to-play, but players are encouraged to purchase optional items that enhance their playing experience. As a first task, the company would like you to generate a report that breaks down the game's purchasing data into meaningful insights.
-
-Your final report should include each of the following:
-
-**Player Count**
-
-* Total Number of Players
-
-**Purchasing Analysis (Total)**
-
-* Number of Unique Items
-* Average Purchase Price
-* Total Number of Purchases
-* Total Revenue
-
-**Gender Demographics**
-
-* Percentage and Count of Male Players
-* Percentage and Count of Female Players
-* Percentage and Count of Other / Non-Disclosed
-
-**Purchasing Analysis (Gender)** 
-
-* The below each broken by gender
-  * Purchase Count
-  * Average Purchase Price
-  * Total Purchase Value
-  * Normalized Totals
-
-**Age Demographics**
-
-* The below each broken into bins of 4 years (i.e. &lt;10, 10-14, 15-19, etc.) 
-  * Purchase Count
-  * Average Purchase Price
-  * Total Purchase Value
-  * Normalized Totals
-
-**Top Spenders**
-
-* Identify the the top 5 spenders in the game by total purchase value, then list (in a table):
-  * SN
-  * Purchase Count
-  * Average Purchase Price
-  * Total Purchase Value
-
-**Most Popular Items**
-
-* Identify the 5 most popular items by purchase count, then list (in a table):
-  * Item ID
-  * Item Name
-  * Purchase Count
-  * Item Price
-  * Total Purchase Value
-
-**Most Profitable Items**
-
-* Identify the 5 most profitable items by total purchase value, then list (in a table):
-  * Item ID
-  * Item Name
-  * Purchase Count
-  * Item Price
-  * Total Purchase Value
-
-As final considerations:
-
-* Your script must work for both data-sets given.
-* You must use the Pandas Library and the Jupyter Notebook.
-* You must submit a link to your Jupyter Notebook with the viewable Data Frames. 
-* You must include an exported markdown version of your Notebook called  `README.md` in your GitHub repository.  
-* You must include a written description of three observable trends based on the data. 
-* See [Example Solution](HeroesOfPymoli/HeroesOfPymoli_Example.pdf) for a reference on expected format. 
-
-## Option 2: Academy of Py
-
-![Education](Images/education.jpg)
-
-Well done! Having spent years analyzing financial records for big banks, you've finally scratched your idealistic itch and joined the education sector. In your latest role, you've become the Chief Data Scientist for your city's school district. In this capacity, you'll be helping the  school board and mayor make strategic decisions regarding future school budgets and priorities.
-
-As a first task, you've been asked to analyze the district-wide standardized test results. You'll be given access to every student's math and reading scores, as well as various information on the schools they attend. Your responsibility is to aggregate the data to and showcase obvious trends in school performance. 
-
-Your final report should include each of the following:
-
-**District Summary**
-
-* Create a high level snapshot (in table form) of the district's key metrics, including:
-  * Total Schools
-  * Total Students
-  * Total Budget
-  * Average Math Score
-  * Average Reading Score
-  * % Passing Math
-  * % Passing Reading
-  * Overall Passing Rate (Average of the above two)
-
-**School Summary**
-
-* Create an overview table that summarizes key metrics about each school, including:
-  * School Name
-  * School Type
-  * Total Students
-  * Total School Budget
-  * Per Student Budget
-  * Average Math Score
-  * Average Reading Score
-  * % Passing Math
-  * % Passing Reading
-  * Overall Passing Rate (Average of the above two)
-
-**Top Performing Schools (By Passing Rate)**
-
-* Create a table that highlights the top 5 performing schools based on Overall Passing Rate. Include:
-  * School Name
-  * School Type
-  * Total Students
-  * Total School Budget
-  * Per Student Budget
-  * Average Math Score
-  * Average Reading Score
-  * % Passing Math
-  * % Passing Reading
-  * Overall Passing Rate (Average of the above two)
-
-**Top Performing Schools (By Passing Rate)**
-
-* Create a table that highlights the bottom 5 performing schools based on Overall Passing Rate. Include all of the same metrics as above.
-
-**Math Scores by Grade**
-
-* Create a table that lists the average Math Score for students of each grade level (9th, 10th, 11th, 12th) at each school.
-
-**Reading Scores by Grade**
-
-* Create a table that lists the average Reading Score for students of each grade level (9th, 10th, 11th, 12th) at each school.
-
-**Scores by School Spending**
-
-* Create a table that breaks down school performances based on average Spending Ranges (Per Student). Use 4 reasonable bins to group school spending. Include in the table each of the following:
-  * Average Math Score
-  * Average Reading Score
-  * % Passing Math
-  * % Passing Reading
-  * Overall Passing Rate (Average of the above two)
-
-**Scores by School Size**
-
-* Repeat the above breakdown, but this time group schools based on a reasonable approximation of school size (Small, Medium, Large).
-
-**Scores by School Type**
-
-* Repeat the above breakdown, but this time group schools based on school type (Charter vs. District).
-
-As final considerations:
-
-* Your script must work for both data-sets given.
-* You must use the Pandas Library and the Jupyter Notebook.
-* You must submit a link to your Jupyter Notebook with the viewable Data Frames. 
-* You must include an exported markdown version of your Notebook called  `README.md` in your GitHub repository.  
-* You must include a written description of three observable trends based on the data. 
-* See [Example Solution](PyCitySchools/PyCitySchools_Example.pdf) for a reference on the expected format. 
-
-## Hints and Considerations
-
-* These are challenging activities for a number of reasons. For one, these activities will require you to analyze thousands of records. Hacking through the data to look for obvious trends in Excel is just not a feasible option. The size of the data may seem daunting, but Python Pandas will allow you to efficiently parse through it. 
-
-* Second, these activities will also challenge you by requiring you to learn on your feet. Don't fool yourself into thinking: "I need to study Pandas more closely before diving in." Get the basic gist of the library and then _immediately_ get to work. When facing a daunting task, it's easy to think: "I'm just not ready to tackle it yet." But that's the surest way to never succeed. Learning to program requires one to constantly tinker, experiment, and learn on the fly. You are doing exactly the _right_ thing, if you find yourself constantly practicing Google-Fu and diving into documentation. There is just no way (or reason) to try and memorize it all. Online references are available for you to use when you need them. So use them!
-
-* Take each of these tasks one at a time. Begin your work, answering the basic questions: "How do I import the data?" "How do I convert the data into a DataFrame?" "How do I build the first table?" Don't get intimidated by the number of asks. Many of them are repetitive in nature with just a few tweaks. Be persistent and creative!
-
-* Expect these exercises to take time! Don't get discouraged if you find yourself spending  hours initially with little progress. Force yourself to deal with the discomfort of not knowing and forge ahead. This exercise is likely to take between 15-30 hours of your time. Consider these hours an investment in your future!
-
-* As always, feel encouraged to work in groups and get help from your TAs and Instructor. Just remember, true success comes from mastery and _not_ a completed homework assignment. So challenge yourself to truly succeed!
-
-## Copyright
-
-Coding Boot Camp (C) 2016. All Rights Reserved.
+﻿﻿Heroes of Pymoli Data Analysis1. A majority of the purchases are made by people under 30. People between the ages of 20 - 24 make the most purchases however they do not make the most expensive purchases2. The most popular items are below the average purchase price3. The most profitable items are priced higher than the average price while the most popular are priced below the average.```python#Import Dependenciesimport pandas as pd``````python# Create a path to the json and  read it into a Pandas DataFramejson_path = "HeroesOfPymoli/purchase_data.json"heroes_df = pd.read_json(json_path)heroes_df.head()```<div><style scoped>    .dataframe tbody tr th:only-of-type {        vertical-align: middle;    }    .dataframe tbody tr th {        vertical-align: top;    }    .dataframe thead th {        text-align: right;    }</style><table border="1" class="dataframe">  <thead>    <tr style="text-align: right;">      <th></th>      <th>Age</th>      <th>Gender</th>      <th>Item ID</th>      <th>Item Name</th>      <th>Price</th>      <th>SN</th>    </tr>  </thead>  <tbody>    <tr>      <th>0</th>      <td>38</td>      <td>Male</td>      <td>165</td>      <td>Bone Crushing Silver Skewer</td>      <td>3.37</td>      <td>Aelalis34</td>    </tr>    <tr>      <th>1</th>      <td>21</td>      <td>Male</td>      <td>119</td>      <td>Stormbringer, Dark Blade of Ending Misery</td>      <td>2.32</td>      <td>Eolo46</td>    </tr>    <tr>      <th>2</th>      <td>34</td>      <td>Male</td>      <td>174</td>      <td>Primitive Blade</td>      <td>2.46</td>      <td>Assastnya25</td>    </tr>    <tr>      <th>3</th>      <td>21</td>      <td>Male</td>      <td>92</td>      <td>Final Critic</td>      <td>1.36</td>      <td>Pheusrical25</td>    </tr>    <tr>      <th>4</th>      <td>23</td>      <td>Male</td>      <td>63</td>      <td>Stormfury Mace</td>      <td>1.27</td>      <td>Aela59</td>    </tr>  </tbody></table></div>```python#Find Player Countplayer_count = heroes_df["SN"].nunique()player_countplayer_count_df = pd.DataFrame({'Total Players' : [player_count]})player_count_df```<div><style scoped>    .dataframe tbody tr th:only-of-type {        vertical-align: middle;    }    .dataframe tbody tr th {        vertical-align: top;    }    .dataframe thead th {        text-align: right;    }</style><table border="1" class="dataframe">  <thead>    <tr style="text-align: right;">      <th></th>      <th>Total Players</th>    </tr>  </thead>  <tbody>    <tr>      <th>0</th>      <td>573</td>    </tr>  </tbody></table></div>```python#Number of Unique Itemsunique_items = heroes_df["Item Name"].nunique()#Average Purchase Priceaverage_price = heroes_df["Price"].mean()#Total Number of PurchasesTotal_purchases = heroes_df["Price"].count()#Total RevenueTotal_Revenue = heroes_df["Price"].sum()purchase_analysis_df = pd.DataFrame({'Unique Items' : [unique_items],                                     'Average Purchase Price' : [average_price],                                     'Total Purchases': [Total_purchases],                                     'Total Revenue' : [Total_Revenue]})purchase_analysis_df['Average Purchase Price'] = purchase_analysis_df['Average Purchase Price'].map("${:.2f}".format)purchase_analysis_df['Total Revenue'] = purchase_analysis_df['Total Revenue'].map("${:,.2f}".format)purchase_analysis_df```<div><style scoped>    .dataframe tbody tr th:only-of-type {        vertical-align: middle;    }    .dataframe tbody tr th {        vertical-align: top;    }    .dataframe thead th {        text-align: right;    }</style><table border="1" class="dataframe">  <thead>    <tr style="text-align: right;">      <th></th>      <th>Average Purchase Price</th>      <th>Total Purchases</th>      <th>Total Revenue</th>      <th>Unique Items</th>    </tr>  </thead>  <tbody>    <tr>      <th>0</th>      <td>$2.93</td>      <td>780</td>      <td>$2,286.33</td>      <td>179</td>    </tr>  </tbody></table></div>```python#Percentage and Count Per Gendermale_players = heroes_df.loc[heroes_df["Gender"] == "Male"]male_count = male_players["SN"].nunique()male_percent = (male_count/player_count)*100female_players = heroes_df.loc[heroes_df["Gender"] == "Female"]female_count = female_players["SN"].nunique()female_percent = (female_count/player_count)*100other_players = heroes_df.loc[~heroes_df["Gender"].isin(["Male","Female"])]other_count = other_players["SN"].nunique()other_percent = (other_count/player_count)*100gender_df = pd.DataFrame({'Gender' : ["Male", "Female", "Other/Non-disclosed"],                          'Percentage of Players' : [male_percent, female_percent, other_percent],                          'Total Count' : [male_count, female_count, other_count]})gender_df = gender_df.set_index('Gender')gender_df['Percentage of Players'] = gender_df['Percentage of Players'].map("{:.2f}%".format)gender_df['Total Count'] = gender_df['Total Count'].map("{:}".format)gender_df                                                ```<div><style scoped>    .dataframe tbody tr th:only-of-type {        vertical-align: middle;    }    .dataframe tbody tr th {        vertical-align: top;    }    .dataframe thead th {        text-align: right;    }</style><table border="1" class="dataframe">  <thead>    <tr style="text-align: right;">      <th></th>      <th>Percentage of Players</th>      <th>Total Count</th>    </tr>    <tr>      <th>Gender</th>      <th></th>      <th></th>    </tr>  </thead>  <tbody>    <tr>      <th>Male</th>      <td>81.15%</td>      <td>465</td>    </tr>    <tr>      <th>Female</th>      <td>17.45%</td>      <td>100</td>    </tr>    <tr>      <th>Other/Non-disclosed</th>      <td>1.40%</td>      <td>8</td>    </tr>  </tbody></table></div>```python#purchase analysis by gendermale_purchase = male_players["Price"].count()male_total_value = male_players["Price"].sum()male_average = male_players["Price"].mean()male_norm = male_total_value/male_countfemale_purchase = female_players["Price"].count()female_total_value = female_players["Price"].sum()female_average = female_players["Price"].mean()female_norm = female_total_value/female_countother_purchase = other_players["Price"].count()other_total_value = other_players["Price"].sum()other_average = other_players["Price"].mean()other_norm = other_total_value/other_countgender_purchase_df = pd.DataFrame({"Gender" : ["Male", "Female", "Other/Non-Disclosed"],                                  "Purchase Count" : [male_purchase, female_purchase, other_purchase],                                  "Average Purchase Price" : [male_average, female_average, other_average],                                  "Total Purchase Price" : [male_total_value, female_total_value, other_total_value],                                  "Normalized Totals" :[male_norm, female_norm, other_norm]})gender_purchase_df = gender_purchase_df.set_index("Gender")gender_purchase_df['Total Purchase Price'] = gender_purchase_df['Total Purchase Price'].map("${:,.2f}".format)gender_purchase_df['Average Purchase Price'] = gender_purchase_df['Average Purchase Price'].map("${:.2f}".format)gender_purchase_df['Normalized Totals'] = gender_purchase_df['Normalized Totals'].map("${:.2f}".format)gender_purchase_df```<div><style scoped>    .dataframe tbody tr th:only-of-type {        vertical-align: middle;    }    .dataframe tbody tr th {        vertical-align: top;    }    .dataframe thead th {        text-align: right;    }</style><table border="1" class="dataframe">  <thead>    <tr style="text-align: right;">      <th></th>      <th>Average Purchase Price</th>      <th>Normalized Totals</th>      <th>Purchase Count</th>      <th>Total Purchase Price</th>    </tr>    <tr>      <th>Gender</th>      <th></th>      <th></th>      <th></th>      <th></th>    </tr>  </thead>  <tbody>    <tr>      <th>Male</th>      <td>$2.95</td>      <td>$4.02</td>      <td>633</td>      <td>$1,867.68</td>    </tr>    <tr>      <th>Female</th>      <td>$2.82</td>      <td>$3.83</td>      <td>136</td>      <td>$382.91</td>    </tr>    <tr>      <th>Other/Non-Disclosed</th>      <td>$3.25</td>      <td>$4.47</td>      <td>11</td>      <td>$35.74</td>    </tr>  </tbody></table></div>```python#age demographics#print(heroes_df["Age"].max())#print(heroes_df["Age"].min())#Create Binsbins = [0, 10, 15, 20, 25, 30, 35, 40, 150]group_names = ['<10', '10-14', '15-19', '20-24', '25-29', '30-34', '35-39', '40+']#new dataframe and groupbyage_summary_df = heroes_df.copy()age_summary_df["Age_Range"] = pd.cut(age_summary_df["Age"], bins, labels=group_names)age_groups = age_summary_df.groupby(["Age_Range"])age_count = age_groups["SN"].count()age_percentage = (age_count/player_count)*100age_df = pd.DataFrame({"Total Count" : age_count,                      "Percentage of Players" : age_percentage})age_df['Percentage of Players'] = age_df['Percentage of Players'].map("{:.2f}%".format)age_df```<div><style scoped>    .dataframe tbody tr th:only-of-type {        vertical-align: middle;    }    .dataframe tbody tr th {        vertical-align: top;    }    .dataframe thead th {        text-align: right;    }</style><table border="1" class="dataframe">  <thead>    <tr style="text-align: right;">      <th></th>      <th>Percentage of Players</th>      <th>Total Count</th>    </tr>    <tr>      <th>Age_Range</th>      <th></th>      <th></th>    </tr>  </thead>  <tbody>    <tr>      <th>&lt;10</th>      <td>5.58%</td>      <td>32</td>    </tr>    <tr>      <th>10-14</th>      <td>13.61%</td>      <td>78</td>    </tr>    <tr>      <th>15-19</th>      <td>32.11%</td>      <td>184</td>    </tr>    <tr>      <th>20-24</th>      <td>53.23%</td>      <td>305</td>    </tr>    <tr>      <th>25-29</th>      <td>13.26%</td>      <td>76</td>    </tr>    <tr>      <th>30-34</th>      <td>10.12%</td>      <td>58</td>    </tr>    <tr>      <th>35-39</th>      <td>7.68%</td>      <td>44</td>    </tr>    <tr>      <th>40+</th>      <td>0.52%</td>      <td>3</td>    </tr>  </tbody></table></div>```python#Age Analysisunique_age_group = age_groups['SN'].nunique()age_purchase = age_groups["Price"].count()age_average = age_groups["Price"].mean()age_total = age_groups["Price"].sum()age_norm = age_total/unique_age_groupage_analysis_df = pd.DataFrame({"Purchase Count" : age_purchase,                              "Average Purchase Price" : age_average,                              "Total Purchase Price" : age_total,                              "Normalized Totals" : age_norm})age_analysis_df['Total Purchase Price'] = age_analysis_df['Total Purchase Price'].map("${:,.2f}".format)age_analysis_df['Average Purchase Price'] = age_analysis_df['Average Purchase Price'].map("${:.2f}".format)age_analysis_df['Normalized Totals'] = age_analysis_df['Normalized Totals'].map("${:.2f}".format)age_analysis_df```<div><style scoped>    .dataframe tbody tr th:only-of-type {        vertical-align: middle;    }    .dataframe tbody tr th {        vertical-align: top;    }    .dataframe thead th {        text-align: right;    }</style><table border="1" class="dataframe">  <thead>    <tr style="text-align: right;">      <th></th>      <th>Average Purchase Price</th>      <th>Normalized Totals</th>      <th>Purchase Count</th>      <th>Total Purchase Price</th>    </tr>    <tr>      <th>Age_Range</th>      <th></th>      <th></th>      <th></th>      <th></th>    </tr>  </thead>  <tbody>    <tr>      <th>&lt;10</th>      <td>$3.02</td>      <td>$4.39</td>      <td>32</td>      <td>$96.62</td>    </tr>    <tr>      <th>10-14</th>      <td>$2.87</td>      <td>$4.15</td>      <td>78</td>      <td>$224.15</td>    </tr>    <tr>      <th>15-19</th>      <td>$2.87</td>      <td>$3.80</td>      <td>184</td>      <td>$528.74</td>    </tr>    <tr>      <th>20-24</th>      <td>$2.96</td>      <td>$3.86</td>      <td>305</td>      <td>$902.61</td>    </tr>    <tr>      <th>25-29</th>      <td>$2.89</td>      <td>$4.23</td>      <td>76</td>      <td>$219.82</td>    </tr>    <tr>      <th>30-34</th>      <td>$3.07</td>      <td>$4.05</td>      <td>58</td>      <td>$178.26</td>    </tr>    <tr>      <th>35-39</th>      <td>$2.90</td>      <td>$5.10</td>      <td>44</td>      <td>$127.49</td>    </tr>    <tr>      <th>40+</th>      <td>$2.88</td>      <td>$2.88</td>      <td>3</td>      <td>$8.64</td>    </tr>  </tbody></table></div>```python#Top SpendersSN_group = heroes_df.groupby(["SN"])player_purchase_count = SN_group["Price"].count()player_purchase_total = SN_group["Price"].sum()player_purchase_average = SN_group["Price"].mean()top_spender_df = pd.DataFrame({"Purchase Count" : player_purchase_count,                              "Average Purchase Price" : player_purchase_average,                              "Total Purchase Value" : player_purchase_total})top_spender_df.sort_values("Total Purchase Value", ascending=False, inplace=True)top_spender_df["Total Purchase Value"] = top_spender_df["Total Purchase Value"].map("${:.2f}".format)top_spender_df["Average Purchase Price"] = top_spender_df["Average Purchase Price"].map("${:.2f}".format)top_spender_df.head()```<div><style scoped>    .dataframe tbody tr th:only-of-type {        vertical-align: middle;    }    .dataframe tbody tr th {        vertical-align: top;    }    .dataframe thead th {        text-align: right;    }</style><table border="1" class="dataframe">  <thead>    <tr style="text-align: right;">      <th></th>      <th>Average Purchase Price</th>      <th>Purchase Count</th>      <th>Total Purchase Value</th>    </tr>    <tr>      <th>SN</th>      <th></th>      <th></th>      <th></th>    </tr>  </thead>  <tbody>    <tr>      <th>Undirrala66</th>      <td>$3.41</td>      <td>5</td>      <td>$17.06</td>    </tr>    <tr>      <th>Saedue76</th>      <td>$3.39</td>      <td>4</td>      <td>$13.56</td>    </tr>    <tr>      <th>Mindimnya67</th>      <td>$3.18</td>      <td>4</td>      <td>$12.74</td>    </tr>    <tr>      <th>Haellysu29</th>      <td>$4.24</td>      <td>3</td>      <td>$12.73</td>    </tr>    <tr>      <th>Eoda93</th>      <td>$3.86</td>      <td>3</td>      <td>$11.58</td>    </tr>  </tbody></table></div>```python# Most popular item#Create new dataframe for most popular itempopular_group = heroes_df.groupby(["Item ID"])purchase_count = popular_group["Price"].count()purchase_total = popular_group["Price"].sum()top_item_df = pd.DataFrame({"Purchase Count" : purchase_count,                            "Total Purchase Value" : purchase_total})#Remove duplicates from OG dataframe and keep only columns neededdrop_dups_df = heroes_df.drop_duplicates(["Item ID"], keep = "last")item_id_index_df = drop_dups_df.set_index('Item ID')item_id_index_df = item_id_index_df[["Item Name", "Price"]]#combine two dataframes to get all the information neededframes = [top_item_df, item_id_index_df]top_item_df = pd.concat(frames, axis=1)top_item_df.sort_values("Purchase Count", ascending=False, inplace=True)#format columnstop_item_df["Total Purchase Value"] = top_item_df["Total Purchase Value"].map("${:.2f}".format)top_item_df["Price"] = top_item_df["Price"].map("${:.2f}".format)top_item_df = top_item_df[["Item Name", "Purchase Count", "Price", "Total Purchase Value"]]top_item_df.head()```<div><style scoped>    .dataframe tbody tr th:only-of-type {        vertical-align: middle;    }    .dataframe tbody tr th {        vertical-align: top;    }    .dataframe thead th {        text-align: right;    }</style><table border="1" class="dataframe">  <thead>    <tr style="text-align: right;">      <th></th>      <th>Item Name</th>      <th>Purchase Count</th>      <th>Price</th>      <th>Total Purchase Value</th>    </tr>    <tr>      <th>Item ID</th>      <th></th>      <th></th>      <th></th>      <th></th>    </tr>  </thead>  <tbody>    <tr>      <th>39</th>      <td>Betrayal, Whisper of Grieving Widows</td>      <td>11</td>      <td>$2.35</td>      <td>$25.85</td>    </tr>    <tr>      <th>84</th>      <td>Arcane Gem</td>      <td>11</td>      <td>$2.23</td>      <td>$24.53</td>    </tr>    <tr>      <th>31</th>      <td>Trickster</td>      <td>9</td>      <td>$2.07</td>      <td>$18.63</td>    </tr>    <tr>      <th>175</th>      <td>Woeful Adamantite Claymore</td>      <td>9</td>      <td>$1.24</td>      <td>$11.16</td>    </tr>    <tr>      <th>13</th>      <td>Serenity</td>      <td>9</td>      <td>$1.49</td>      <td>$13.41</td>    </tr>  </tbody></table></div>```python#Most Profitable Items#Create new dataframe for most popular itemprofit_group = heroes_df.groupby(["Item ID"])profit_purchase_count = profit_group["Price"].count()profit_purchase_total = profit_group["Price"].sum()profitable_item_df = pd.DataFrame({"Purchase Count" : purchase_count,                            "Total Purchase Value" : purchase_total})frames = [profitable_item_df, item_id_index_df]profitable_item_df = pd.concat(frames, axis=1)profitable_item_df.sort_values("Total Purchase Value", ascending=False, inplace=True)profitable_item_df["Total Purchase Value"] = profitable_item_df["Total Purchase Value"].map("${:.2f}".format)profitable_item_df["Price"] = profitable_item_df["Price"].map("${:.2f}".format)profitable_item_df = profitable_item_df[["Item Name", "Purchase Count", "Price", "Total Purchase Value"]]profitable_item_df.head()```<div><style scoped>    .dataframe tbody tr th:only-of-type {        vertical-align: middle;    }    .dataframe tbody tr th {        vertical-align: top;    }    .dataframe thead th {        text-align: right;    }</style><table border="1" class="dataframe">  <thead>    <tr style="text-align: right;">      <th></th>      <th>Item Name</th>      <th>Purchase Count</th>      <th>Price</th>      <th>Total Purchase Value</th>    </tr>    <tr>      <th>Item ID</th>      <th></th>      <th></th>      <th></th>      <th></th>    </tr>  </thead>  <tbody>    <tr>      <th>34</th>      <td>Retribution Axe</td>      <td>9</td>      <td>$4.14</td>      <td>$37.26</td>    </tr>    <tr>      <th>115</th>      <td>Spectral Diamond Doomblade</td>      <td>7</td>      <td>$4.25</td>      <td>$29.75</td>    </tr>    <tr>      <th>32</th>      <td>Orenmir</td>      <td>6</td>      <td>$4.95</td>      <td>$29.70</td>    </tr>    <tr>      <th>103</th>      <td>Singed Scalpel</td>      <td>6</td>      <td>$4.87</td>      <td>$29.22</td>    </tr>    <tr>      <th>107</th>      <td>Splitter, Foe Of Subtlety</td>      <td>8</td>      <td>$3.61</td>      <td>$28.88</td>    </tr>  </tbody></table></div>
